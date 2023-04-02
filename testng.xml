@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestScript1&amp;2">
+    <classes>
+      <class name="vtiger.PomClassesTests.TC_002_CreateOrganization"/>
+      <class name="vtiger.PomClassesTests.TC_001_CreateContact"/>
+    </classes>
+  </test> <!-- TestScript1&2 -->
+</suite> <!-- Suite -->
